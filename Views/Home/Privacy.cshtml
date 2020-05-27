@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form onSubmit={handleSubmit(onSubmit)}>
+                <div className="form-group">
+                    <label htmlFor="ownerName">Responsavel</label>
+                    <input className="form-control" name="ownerName" id="ownerName" ref={register} />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="telephone">Telefone</label>
+                    <input className="form-control" name="telephone" id="telephone" ref={register} />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="address">Endereço</label>
+                    <input className="form-control" name="address" id="address" ref={register} />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="number">Número</label>
+                    <input className="form-control" name="number" id="number" ref={register} />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="neighborhood">Bairro</label>
+                    <input className="form-control" name="neighborhood" id="neighborhood" ref={register} />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="city">Numero</label>
+                    <input className="form-control" name="city" id="city" ref={register} />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="uf">UF</label>
+                    <input className="form-control" name="uf" id="uf" ref={register} />
+                </div>
+
+                <div className="form-group">
+                    <input type="submit" value="Salvar" />
+                </div>
+            </form>
+
+<p>Cadastro de usuário do consultapp.</p>
