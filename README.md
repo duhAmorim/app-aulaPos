@@ -1,5 +1,6 @@
 # app-aulaPos
 Atividade Asp net core - Impacta
+<<<<<<< HEAD
 
 ### Atividade 
 
@@ -14,3 +15,5 @@ Leonardo Eiji Aoki Marcello -1901767
 Luiz Henrique Bezerra - 1902463
 
 Rui Barbosa da Silva Junior -1902447
+=======
+>>>>>>> remotes/origin/master
